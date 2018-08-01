@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA4E5F92111F74F0008DC27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E5F82111F74F0008DC27 /* AppDelegate.swift */; };
+		FAA4E5FB2111F74F0008DC27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E5FA2111F74F0008DC27 /* ViewController.swift */; };
+		FAA4E5FE2111F74F0008DC27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E5FC2111F74F0008DC27 /* Main.storyboard */; };
+		FAA4E6012111F74F0008DC27 /* EurekaNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E5FF2111F74F0008DC27 /* EurekaNote.xcdatamodeld */; };
+		FAA4E6032111F7510008DC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E6022111F7510008DC27 /* Assets.xcassets */; };
+		FAA4E6062111F7510008DC27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E6042111F7510008DC27 /* LaunchScreen.storyboard */; };
+		FAA4E6112111F7510008DC27 /* EurekaNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E6102111F7510008DC27 /* EurekaNoteTests.swift */; };
+		FAA4E61C2111F7510008DC27 /* EurekaNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E61B2111F7510008DC27 /* EurekaNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA4E60D2111F7510008DC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA4E5ED2111F74F0008DC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA4E5F42111F74F0008DC27;
+			remoteInfo = EurekaNote;
+		};
+		FAA4E6182111F7510008DC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA4E5ED2111F74F0008DC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA4E5F42111F74F0008DC27;
+			remoteInfo = EurekaNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA4E5F52111F74F0008DC27 /* EurekaNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4E5F82111F74F0008DC27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA4E5FA2111F74F0008DC27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA4E5FD2111F74F0008DC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA4E6002111F74F0008DC27 /* EurekaNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EurekaNote.xcdatamodel; sourceTree = "<group>"; };
+		FAA4E6022111F7510008DC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA4E6052111F7510008DC27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA4E6072111F7510008DC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4E60C2111F7510008DC27 /* EurekaNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4E6102111F7510008DC27 /* EurekaNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaNoteTests.swift; sourceTree = "<group>"; };
+		FAA4E6122111F7510008DC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4E6172111F7510008DC27 /* EurekaNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4E61B2111F7510008DC27 /* EurekaNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaNoteUITests.swift; sourceTree = "<group>"; };
+		FAA4E61D2111F7510008DC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA4E5F22111F74F0008DC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E6092111F7510008DC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E6142111F7510008DC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA4E5EC2111F74F0008DC27 = {
+			isa = PBXGroup;
+			children = (
+				FAA4E5F72111F74F0008DC27 /* EurekaNote */,
+				FAA4E60F2111F7510008DC27 /* EurekaNoteTests */,
+				FAA4E61A2111F7510008DC27 /* EurekaNoteUITests */,
+				FAA4E5F62111F74F0008DC27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA4E5F62111F74F0008DC27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4E5F52111F74F0008DC27 /* EurekaNote.app */,
+				FAA4E60C2111F7510008DC27 /* EurekaNoteTests.xctest */,
+				FAA4E6172111F7510008DC27 /* EurekaNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA4E5F72111F74F0008DC27 /* EurekaNote */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4E5F82111F74F0008DC27 /* AppDelegate.swift */,
+				FAA4E5FA2111F74F0008DC27 /* ViewController.swift */,
+				FAA4E5FC2111F74F0008DC27 /* Main.storyboard */,
+				FAA4E6022111F7510008DC27 /* Assets.xcassets */,
+				FAA4E6042111F7510008DC27 /* LaunchScreen.storyboard */,
+				FAA4E6072111F7510008DC27 /* Info.plist */,
+				FAA4E5FF2111F74F0008DC27 /* EurekaNote.xcdatamodeld */,
+			);
+			path = EurekaNote;
+			sourceTree = "<group>";
+		};
+		FAA4E60F2111F7510008DC27 /* EurekaNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4E6102111F7510008DC27 /* EurekaNoteTests.swift */,
+				FAA4E6122111F7510008DC27 /* Info.plist */,
+			);
+			path = EurekaNoteTests;
+			sourceTree = "<group>";
+		};
+		FAA4E61A2111F7510008DC27 /* EurekaNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4E61B2111F7510008DC27 /* EurekaNoteUITests.swift */,
+				FAA4E61D2111F7510008DC27 /* Info.plist */,
+			);
+			path = EurekaNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA4E5F42111F74F0008DC27 /* EurekaNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4E6202111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNote" */;
+			buildPhases = (
+				FAA4E5F12111F74F0008DC27 /* Sources */,
+				FAA4E5F22111F74F0008DC27 /* Frameworks */,
+				FAA4E5F32111F74F0008DC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaNote;
+			productName = EurekaNote;
+			productReference = FAA4E5F52111F74F0008DC27 /* EurekaNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA4E60B2111F7510008DC27 /* EurekaNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4E6232111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNoteTests" */;
+			buildPhases = (
+				FAA4E6082111F7510008DC27 /* Sources */,
+				FAA4E6092111F7510008DC27 /* Frameworks */,
+				FAA4E60A2111F7510008DC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA4E60E2111F7510008DC27 /* PBXTargetDependency */,
+			);
+			name = EurekaNoteTests;
+			productName = EurekaNoteTests;
+			productReference = FAA4E60C2111F7510008DC27 /* EurekaNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA4E6162111F7510008DC27 /* EurekaNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4E6262111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNoteUITests" */;
+			buildPhases = (
+				FAA4E6132111F7510008DC27 /* Sources */,
+				FAA4E6142111F7510008DC27 /* Frameworks */,
+				FAA4E6152111F7510008DC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA4E6192111F7510008DC27 /* PBXTargetDependency */,
+			);
+			name = EurekaNoteUITests;
+			productName = EurekaNoteUITests;
+			productReference = FAA4E6172111F7510008DC27 /* EurekaNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA4E5ED2111F74F0008DC27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yuya Imoto";
+				TargetAttributes = {
+					FAA4E5F42111F74F0008DC27 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FAA4E60B2111F7510008DC27 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FAA4E5F42111F74F0008DC27;
+					};
+					FAA4E6162111F7510008DC27 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FAA4E5F42111F74F0008DC27;
+					};
+				};
+			};
+			buildConfigurationList = FAA4E5F02111F74F0008DC27 /* Build configuration list for PBXProject "EurekaNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA4E5EC2111F74F0008DC27;
+			productRefGroup = FAA4E5F62111F74F0008DC27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA4E5F42111F74F0008DC27 /* EurekaNote */,
+				FAA4E60B2111F7510008DC27 /* EurekaNoteTests */,
+				FAA4E6162111F7510008DC27 /* EurekaNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA4E5F32111F74F0008DC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4E6062111F7510008DC27 /* LaunchScreen.storyboard in Resources */,
+				FAA4E6032111F7510008DC27 /* Assets.xcassets in Resources */,
+				FAA4E5FE2111F74F0008DC27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E60A2111F7510008DC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E6152111F7510008DC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA4E5F12111F74F0008DC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4E5FB2111F74F0008DC27 /* ViewController.swift in Sources */,
+				FAA4E5F92111F74F0008DC27 /* AppDelegate.swift in Sources */,
+				FAA4E6012111F74F0008DC27 /* EurekaNote.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E6082111F7510008DC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4E6112111F7510008DC27 /* EurekaNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4E6132111F7510008DC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4E61C2111F7510008DC27 /* EurekaNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA4E60E2111F7510008DC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA4E5F42111F74F0008DC27 /* EurekaNote */;
+			targetProxy = FAA4E60D2111F7510008DC27 /* PBXContainerItemProxy */;
+		};
+		FAA4E6192111F7510008DC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA4E5F42111F74F0008DC27 /* EurekaNote */;
+			targetProxy = FAA4E6182111F7510008DC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA4E5FC2111F74F0008DC27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA4E5FD2111F74F0008DC27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA4E6042111F7510008DC27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA4E6052111F7510008DC27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA4E61E2111F7510008DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA4E61F2111F7510008DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA4E6212111F7510008DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA4E6222111F7510008DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA4E6242111F7510008DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaNote.app/EurekaNote";
+			};
+			name = Debug;
+		};
+		FAA4E6252111F7510008DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaNote.app/EurekaNote";
+			};
+			name = Release;
+		};
+		FAA4E6272111F7510008DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EurekaNote;
+			};
+			name = Debug;
+		};
+		FAA4E6282111F7510008DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L767KT83R9;
+				INFOPLIST_FILE = EurekaNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuya.EurekaNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EurekaNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA4E5F02111F74F0008DC27 /* Build configuration list for PBXProject "EurekaNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4E61E2111F7510008DC27 /* Debug */,
+				FAA4E61F2111F7510008DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4E6202111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4E6212111F7510008DC27 /* Debug */,
+				FAA4E6222111F7510008DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4E6232111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4E6242111F7510008DC27 /* Debug */,
+				FAA4E6252111F7510008DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4E6262111F7510008DC27 /* Build configuration list for PBXNativeTarget "EurekaNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4E6272111F7510008DC27 /* Debug */,
+				FAA4E6282111F7510008DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA4E5FF2111F74F0008DC27 /* EurekaNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA4E6002111F74F0008DC27 /* EurekaNote.xcdatamodel */,
+			);
+			currentVersion = FAA4E6002111F74F0008DC27 /* EurekaNote.xcdatamodel */;
+			path = EurekaNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA4E5ED2111F74F0008DC27 /* Project object */;
+}
