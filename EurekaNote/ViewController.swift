@@ -13,12 +13,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var inputTextView: UITextView!
     @IBOutlet weak var categorySegmentedControl: UISegmentedControl!
+    @IBOutlet weak var inputScrollView: UIScrollView!
 
     @IBAction func canncelButton(_ sender: Any) {
     }
 
+    var keyboardSize: NSValue!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(showKeyboard), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 
         // キーボード用のツールバーを表示
         inputTextView.inputAccessoryView = makeToolbar()
@@ -38,7 +44,10 @@ class ViewController: UIViewController {
     func updateViewLayout() {
         let screenWidth = self.view.bounds.width
         let screenHeight = self.view.bounds.height
-        let inputTextViewHeight = screenHeight/5
+        let inputTextViewHeight = screenHeight/8
+
+        inputScrollView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight - keyboardSize.cgRectValue.size.height)
+        inputScrollView.contentSize.height = screenHeight
 
         // ラベルの位置を指定
         titleLabel.center.x = screenWidth/2
@@ -53,6 +62,10 @@ class ViewController: UIViewController {
         categorySegmentedControl.frame.size.width = inputTextView.frame.size.width
         categorySegmentedControl.center.x = screenWidth/2
         categorySegmentedControl.frame.origin.y = inputTextView.frame.origin.y + inputTextView.frame.size.height + 20
+    }
+
+    @objc func showKeyboard(notification: Notification){
+        keyboardSize = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as! NSValue
     }
 
     @objc func saveProcess(_ sender: UIButton) {
