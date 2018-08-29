@@ -15,6 +15,7 @@
 		FAA4E6062111F7510008DC27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E6042111F7510008DC27 /* LaunchScreen.storyboard */; };
 		FAA4E6112111F7510008DC27 /* EurekaNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E6102111F7510008DC27 /* EurekaNoteTests.swift */; };
 		FAA4E61C2111F7510008DC27 /* EurekaNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E61B2111F7510008DC27 /* EurekaNoteUITests.swift */; };
+		FAFDD96E2136F6E4004F52F9 /* MaterialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD96D2136F6E4004F52F9 /* MaterialTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAA4E6172111F7510008DC27 /* EurekaNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA4E61B2111F7510008DC27 /* EurekaNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaNoteUITests.swift; sourceTree = "<group>"; };
 		FAA4E61D2111F7510008DC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFDD96D2136F6E4004F52F9 /* MaterialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FAA4E5F82111F74F0008DC27 /* AppDelegate.swift */,
 				FAA4E5FA2111F74F0008DC27 /* ViewController.swift */,
 				FAA4E5FC2111F74F0008DC27 /* Main.storyboard */,
+				FAFDD96D2136F6E4004F52F9 /* MaterialTableViewController.swift */,
 				FAA4E6022111F7510008DC27 /* Assets.xcassets */,
 				FAA4E6042111F7510008DC27 /* LaunchScreen.storyboard */,
 				FAA4E6072111F7510008DC27 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				FAA4E5FB2111F74F0008DC27 /* ViewController.swift in Sources */,
 				FAA4E5F92111F74F0008DC27 /* AppDelegate.swift in Sources */,
+				FAFDD96E2136F6E4004F52F9 /* MaterialTableViewController.swift in Sources */,
 				FAA4E6012111F74F0008DC27 /* EurekaNote.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

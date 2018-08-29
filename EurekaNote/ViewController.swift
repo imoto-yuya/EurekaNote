@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputScrollView: UIScrollView!
 
     @IBAction func canncelButton(_ sender: Any) {
+        performSegue(withIdentifier: "inputView2materialView", sender: nil)
     }
 
     var keyboardSize: NSValue!
@@ -69,6 +70,7 @@ class ViewController: UIViewController {
     }
 
     @objc func saveProcess(_ sender: UIButton) {
+        performSegue(withIdentifier: "inputView2materialView", sender: nil)
     }
 
     func makeToolbar() -> UIToolbar {
