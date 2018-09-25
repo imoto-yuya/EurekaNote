@@ -10,6 +10,8 @@ import UIKit
 
 class MaterialTableViewController: UITableViewController {
 
+    var material = MaterialManager.materialManager
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +20,10 @@ class MaterialTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        material.fetch()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,12 +40,12 @@ class MaterialTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return material.list.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "materialCell", for: indexPath)
-        cell.textLabel?.text = "test"
+        cell.textLabel?.text = material.list[indexPath.row].contents
         return cell
     }
 

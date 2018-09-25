@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "inputView2materialView", sender: nil)
     }
 
+    var material = MaterialManager.materialManager
     var keyboardSize: NSValue!
 
     override func viewDidLoad() {
@@ -31,6 +32,10 @@ class ViewController: UIViewController {
         inputTextView.inputAccessoryView = makeToolbar()
         // キーボードを表示する
         inputTextView.becomeFirstResponder()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        inputTextView.text = ""
     }
 
     override func viewWillLayoutSubviews() {
@@ -70,7 +75,18 @@ class ViewController: UIViewController {
     }
 
     @objc func saveProcess(_ sender: UIButton) {
-        performSegue(withIdentifier: "inputView2materialView", sender: nil)
+        if inputTextView.text != "" {
+            material.add(inputTextView.text)
+            performSegue(withIdentifier: "inputView2materialView", sender: nil)
+        } else {
+            let alertController = UIAlertController(title: "Please input text", message: "", preferredStyle: UIAlertControllerStyle.alert)
+            present(alertController, animated: true, completion: {
+                // Close alert dialog
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                    alertController.dismiss(animated: true, completion: nil)
+                })
+            })
+        }
     }
 
     func makeToolbar() -> UIToolbar {
